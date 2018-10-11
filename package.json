@@ -1,0 +1,41 @@
+{
+  "name": "@epegzz/memoize",
+  "version": "1.0.0",
+  "description": "Javascript decorator for caching function calls",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epegzz/memoize.git"
+  },
+  "keywords": [
+    "ES6",
+    "classes",
+    "cache",
+    "caching",
+    "cached",
+    "memoize",
+    "memoizing",
+    "memoized",
+    "functions",
+    "methods"
+  ],
+  "author": "Daniel Schäfer <epegzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epegzz/memoize/issues"
+  },
+  "homepage": "https://github.com/epegzz/memoize#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
