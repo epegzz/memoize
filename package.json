@@ -1,7 +1,7 @@
 {
   "name": "@epegzz/memoize",
   "version": "1.0.0",
-  "description": "Javascript decorator for caching function calls",
+  "description": "ES6 class method decorator for caching method calls",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist",
